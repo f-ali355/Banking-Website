@@ -1,0 +1,30 @@
+body {
+  background-image: linear-gradient(120deg, #eab2ec 0%, #8516ec 100%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #e9b91a;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #e0b31e;
+}
+
+.logo-image {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
